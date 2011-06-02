@@ -1,0 +1,25 @@
+# SQLite version 3.x
+#   gem install sqlite3
+development:
+  adapter: mysql
+  database: p172r588_wcbr
+  username: p172r588_dwhite
+  password: Whit5981
+  host: ember-designs.com 
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  adapter: mysql
+  database: p172r588_arelstest
+  username: p172r588_dwhite
+  password: Whit5981
+  host: ember-designs.com
+
+production:
+  adapter: mysql
+  database: p172r588_wcbr
+  username: p172r588_dwhite
+  password: Whit5981
+  host: ember-designs.com
+

@@ -1,0 +1,210 @@
+Unable to load office, underlying cause No such file to load -- office 
+
+ /home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:304:in `rescue in depend_on'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:299:in `depend_on'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:216:in `require_dependency'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:877:in `block in require_fixture_classes'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:874:in `each'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:874:in `require_fixture_classes'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:857:in `fixtures'
+/home/donavan/projects/rails-apps/ARELS/test/test_helper.rb:10:in `<class:TestCase>'
+/home/donavan/projects/rails-apps/ARELS/test/test_helper.rb:5:in `<top (required)>'
+test/unit/offices_test.rb:1:in `require'
+test/unit/offices_test.rb:1:in `<top (required)>'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `block in <main>'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `<main>'
+Unable to load virtual_tour, underlying cause No such file to load -- virtual_tour 
+
+ /home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:304:in `rescue in depend_on'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:299:in `depend_on'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:216:in `require_dependency'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:877:in `block in require_fixture_classes'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:874:in `each'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:874:in `require_fixture_classes'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:857:in `fixtures'
+/home/donavan/projects/rails-apps/ARELS/test/test_helper.rb:10:in `<class:TestCase>'
+/home/donavan/projects/rails-apps/ARELS/test/test_helper.rb:5:in `<top (required)>'
+test/unit/offices_test.rb:1:in `require'
+test/unit/offices_test.rb:1:in `<top (required)>'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `block in <main>'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `<main>'
+  [1m[36mSQL (69.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (69.4ms)[0m  ROLLBACK
+  [1m[36mSQL (69.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (69.0ms)[0m  ROLLBACK
+  [1m[36mSQL (69.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (69.1ms)[0m  ROLLBACK
+  [1m[36mSQL (69.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (69.5ms)[0m  ROLLBACK
+Unable to load office, underlying cause No such file to load -- office 
+
+ /home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:304:in `rescue in depend_on'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:299:in `depend_on'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:216:in `require_dependency'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:877:in `block in require_fixture_classes'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:874:in `each'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:874:in `require_fixture_classes'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:857:in `fixtures'
+/home/donavan/projects/rails-apps/ARELS/test/test_helper.rb:10:in `<class:TestCase>'
+/home/donavan/projects/rails-apps/ARELS/test/test_helper.rb:5:in `<top (required)>'
+test/functional/members_controller_test.rb:1:in `require'
+test/functional/members_controller_test.rb:1:in `<top (required)>'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `block in <main>'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `<main>'
+Unable to load virtual_tour, underlying cause No such file to load -- virtual_tour 
+
+ /home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:304:in `rescue in depend_on'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:299:in `depend_on'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:216:in `require_dependency'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:862:in `try_to_load_dependency'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:877:in `block in require_fixture_classes'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:874:in `each'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:874:in `require_fixture_classes'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/activerecord-3.0.7/lib/active_record/fixtures.rb:857:in `fixtures'
+/home/donavan/projects/rails-apps/ARELS/test/test_helper.rb:10:in `<class:TestCase>'
+/home/donavan/projects/rails-apps/ARELS/test/test_helper.rb:5:in `<top (required)>'
+test/functional/members_controller_test.rb:1:in `require'
+test/functional/members_controller_test.rb:1:in `<top (required)>'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `block in <main>'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/home/donavan/.rvm/gems/ruby-1.9.2-p136/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `<main>'
+  [1m[36mSQL (68.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (69.1ms)[0m  SHOW TABLES
+  [1m[36mListingDatum Load (142.0ms)[0m  [1mSELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = 980190962 LIMIT 1[0m
+  [1m[35mSQL (68.8ms)[0m  SELECT COUNT(*) FROM `listing_data`
+  Processing by ListingDataController#create as HTML
+  Parameters: {"listing_datum"=>{"AREA"=>nil, "ASSESSED_VAL"=>nil, "BATHS_3_4"=>nil, "BATHS_FULL"=>nil, "BATHS_HALF"=>nil, "BEGIN_DATE"=>nil, "BOOK_MSG2"=>nil, "BOOK_SEC"=>nil, "BOX_NBR"=>nil, "BUY_BROKER_COMM"=>nil, "CANCEL_DATE"=>nil, "CARD_FMT"=>nil, "CARRIER_ROUTE"=>nil, "CITY"=>nil, "CONTINGENT"=>nil, "CONTINGENT_REM"=>nil, "COUNTRY"=>nil, "COUNTY"=>nil, "CO_LIST_AGENCY_ID"=>nil, "CO_LIST_AGENT"=>nil, "CO_SELL_AGENCY_ID"=>nil, "CO_SELL_AGENT_ID"=>nil, "DIRECTIONS"=>nil, "DOM"=>nil, "END_DATE"=>nil, "FALLTHROUGH_DATE"=>nil, "FEATURES"=>nil, "FINANCING"=>nil, "GARAGE_REM"=>nil, "GARAGE_STALL"=>nil, "GARAGE_TYPE"=>nil, "GEO_BLOCK"=>nil, "GEO_COUNTY"=>nil, "GEO_LAT"=>nil, "GEO_LAT2"=>nil, "GEO_LON"=>nil, "GEO_LON2"=>nil, "HIGH_PRICE"=>nil, "HOUSE_NBR"=>nil, "HOUSE_NBR_RANGE"=>nil, "HOW_TO_SHOW"=>nil, "HSCOMMENT"=>nil, "LEGAL"=>nil, "LIST_AGENCY_ID"=>nil, "LIST_NBR"=>nil, "LIST_PRICE"=>nil, "LOCK_BOX_NBR"=>nil, "LOT_ACRES"=>nil, "LOT_SIZE"=>nil, "LOW_PRICE"=>nil, "MA_APPROVED"=>nil, "MA_TECH_ID"=>nil, "ME_TECH_ID"=>"980190962", "MOD_TIMESTAMP"=>nil, "ORIG_LIST_PRICE"=>nil, "OTHER_COMM"=>nil, "OWNER"=>nil, "OWNER_CONTACT"=>nil, "OWNER_PHONE"=>nil, "PARCEL_NBR"=>nil, "PERM_BOOK_MSG"=>nil, "PICTURE1_ID"=>nil, "PICTURE2_ID"=>nil, "PICTURE3_ID"=>nil, "PREFIX"=>nil, "PROP_GROUP_ID"=>nil, "PUBWEB"=>nil, "REMARK1"=>nil, "REMARK2"=>nil, "ROOMS"=>nil, "SELL_AGENCY_ID"=>nil, "SELL_AGENT_ID"=>nil, "SELL_BROKER_COMM"=>nil, "SOLD_DATE"=>nil, "SOLD_PRICE"=>nil, "SQFT1"=>nil, "SQFT2"=>nil, "SQFT3"=>nil, "SQFT4"=>nil, "STATE"=>nil, "STATUS"=>nil, "STATUS_CHANGE_DATE"=>nil, "STORIES"=>nil, "STREETADDLINFO"=>nil, "STREETDIRPREFIX"=>nil, "STREETDIRSUFFIX"=>nil, "STREETNAME"=>nil, "STREETSUFFIX"=>nil, "STYLE"=>nil, "SUBDIVISION"=>nil, "TAXES"=>nil, "TAX_YEAR"=>nil, "TECH_ID"=>nil, "TERMS"=>nil, "TOTAL_BATH"=>nil, "TOTAL_BR"=>nil, "TOTAL_ROOMS"=>nil, "TOTAL_SQFT"=>nil, "TYPE"=>nil, "UN_CONTR_DATE"=>nil, "USERDEFINED1"=>nil, "USERDEFINED10"=>nil, "USERDEFINED11"=>nil, "USERDEFINED12"=>nil, "USERDEFINED13"=>nil, "USERDEFINED14"=>nil, "USERDEFINED15"=>nil, "USERDEFINED16"=>nil, "USERDEFINED17"=>nil, "USERDEFINED18"=>nil, "USERDEFINED19"=>nil, "USERDEFINED2"=>nil, "USERDEFINED20"=>nil, "USERDEFINED21"=>nil, "USERDEFINED22"=>nil, "USERDEFINED23"=>nil, "USERDEFINED24"=>nil, "USERDEFINED25"=>nil, "USERDEFINED26"=>nil, "USERDEFINED27"=>nil, "USERDEFINED28"=>nil, "USERDEFINED29"=>nil, "USERDEFINED3"=>nil, "USERDEFINED30"=>nil, "USERDEFINED31"=>nil, "USERDEFINED32"=>nil, "USERDEFINED33"=>nil, "USERDEFINED34"=>nil, "USERDEFINED35"=>nil, "USERDEFINED4"=>nil, "USERDEFINED5"=>nil, "USERDEFINED6"=>nil, "USERDEFINED7"=>nil, "USERDEFINED8"=>nil, "USERDEFINED9"=>nil, "WITHDRAW_DATE"=>nil, "YR_BUILT"=>nil, "ZIP"=>nil, "ZONING"=>nil}}
+WARNING: Can't mass-assign protected attributes: ME_TECH_ID
+  [1m[36mSQL (68.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (76.5ms)[0m  describe `listing_data`
+  [1m[36mAREL (71.4ms)[0m  [1mINSERT INTO `listing_data` (`MA_TECH_ID`, `TECH_ID`, `PREFIX`, `LIST_NBR`, `MA_APPROVED`, `CO_LIST_AGENT`, `PROP_GROUP_ID`, `CARD_FMT`, `BOOK_SEC`, `BEGIN_DATE`, `END_DATE`, `SOLD_DATE`, `UN_CONTR_DATE`, `FALLTHROUGH_DATE`, `STATUS`, `STATUS_CHANGE_DATE`, `WITHDRAW_DATE`, `CANCEL_DATE`, `CONTINGENT`, `CONTINGENT_REM`, `ORIG_LIST_PRICE`, `LIST_PRICE`, `SOLD_PRICE`, `LOW_PRICE`, `HIGH_PRICE`, `ASSESSED_VAL`, `TERMS`, `FINANCING`, `AREA`, `LOCK_BOX_NBR`, `HOUSE_NBR`, `BOX_NBR`, `STREETDIRPREFIX`, `STREETNAME`, `STREETADDLINFO`, `STREETDIRSUFFIX`, `STREETSUFFIX`, `CARRIER_ROUTE`, `CITY`, `STATE`, `COUNTY`, `COUNTRY`, `ZIP`, `GEO_COUNTY`, `GEO_BLOCK`, `GEO_LAT`, `GEO_LON`, `TOTAL_SQFT`, `SQFT1`, `SQFT2`, `SQFT3`, `SQFT4`, `YR_BUILT`, `STYLE`, `TYPE`, `LOT_SIZE`, `LOT_ACRES`, `BUY_BROKER_COMM`, `SELL_BROKER_COMM`, `OTHER_COMM`, `SELL_AGENCY_ID`, `SELL_AGENT_ID`, `CO_SELL_AGENT_ID`, `STORIES`, `TOTAL_ROOMS`, `TOTAL_BR`, `TOTAL_BATH`, `BATHS_FULL`, `BATHS_HALF`, `BATHS_3_4`, `GARAGE_TYPE`, `GARAGE_STALL`, `GARAGE_REM`, `ZONING`, `TAXES`, `TAX_YEAR`, `SUBDIVISION`, `REMARK1`, `REMARK2`, `PARCEL_NBR`, `LEGAL`, `DIRECTIONS`, `OWNER`, `OWNER_PHONE`, `OWNER_CONTACT`, `HOW_TO_SHOW`, `MOD_TIMESTAMP`, `USERDEFINED1`, `USERDEFINED2`, `USERDEFINED3`, `USERDEFINED4`, `USERDEFINED5`, `USERDEFINED6`, `USERDEFINED7`, `USERDEFINED8`, `USERDEFINED9`, `USERDEFINED10`, `PICTURE1_ID`, `PICTURE2_ID`, `PICTURE3_ID`, `PERM_BOOK_MSG`, `BOOK_MSG2`, `HSCOMMENT`, `PUBWEB`, `LIST_AGENCY_ID`, `CO_LIST_AGENCY_ID`, `CO_SELL_AGENCY_ID`, `HOUSE_NBR_RANGE`, `GEO_LAT2`, `GEO_LON2`, `USERDEFINED11`, `USERDEFINED12`, `USERDEFINED13`, `USERDEFINED14`, `USERDEFINED15`, `USERDEFINED16`, `USERDEFINED17`, `USERDEFINED18`, `USERDEFINED19`, `USERDEFINED20`, `USERDEFINED21`, `USERDEFINED22`, `USERDEFINED23`, `USERDEFINED24`, `USERDEFINED25`, `USERDEFINED26`, `USERDEFINED27`, `USERDEFINED28`, `USERDEFINED29`, `USERDEFINED30`, `USERDEFINED31`, `USERDEFINED32`, `USERDEFINED33`, `USERDEFINED34`, `USERDEFINED35`, `DOM`, `ROOMS`, `FEATURES`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)[0m
+Mysql::Error: Column 'MOD_TIMESTAMP' cannot be null: INSERT INTO `listing_data` (`MA_TECH_ID`, `TECH_ID`, `PREFIX`, `LIST_NBR`, `MA_APPROVED`, `CO_LIST_AGENT`, `PROP_GROUP_ID`, `CARD_FMT`, `BOOK_SEC`, `BEGIN_DATE`, `END_DATE`, `SOLD_DATE`, `UN_CONTR_DATE`, `FALLTHROUGH_DATE`, `STATUS`, `STATUS_CHANGE_DATE`, `WITHDRAW_DATE`, `CANCEL_DATE`, `CONTINGENT`, `CONTINGENT_REM`, `ORIG_LIST_PRICE`, `LIST_PRICE`, `SOLD_PRICE`, `LOW_PRICE`, `HIGH_PRICE`, `ASSESSED_VAL`, `TERMS`, `FINANCING`, `AREA`, `LOCK_BOX_NBR`, `HOUSE_NBR`, `BOX_NBR`, `STREETDIRPREFIX`, `STREETNAME`, `STREETADDLINFO`, `STREETDIRSUFFIX`, `STREETSUFFIX`, `CARRIER_ROUTE`, `CITY`, `STATE`, `COUNTY`, `COUNTRY`, `ZIP`, `GEO_COUNTY`, `GEO_BLOCK`, `GEO_LAT`, `GEO_LON`, `TOTAL_SQFT`, `SQFT1`, `SQFT2`, `SQFT3`, `SQFT4`, `YR_BUILT`, `STYLE`, `TYPE`, `LOT_SIZE`, `LOT_ACRES`, `BUY_BROKER_COMM`, `SELL_BROKER_COMM`, `OTHER_COMM`, `SELL_AGENCY_ID`, `SELL_AGENT_ID`, `CO_SELL_AGENT_ID`, `STORIES`, `TOTAL_ROOMS`, `TOTAL_BR`, `TOTAL_BATH`, `BATHS_FULL`, `BATHS_HALF`, `BATHS_3_4`, `GARAGE_TYPE`, `GARAGE_STALL`, `GARAGE_REM`, `ZONING`, `TAXES`, `TAX_YEAR`, `SUBDIVISION`, `REMARK1`, `REMARK2`, `PARCEL_NBR`, `LEGAL`, `DIRECTIONS`, `OWNER`, `OWNER_PHONE`, `OWNER_CONTACT`, `HOW_TO_SHOW`, `MOD_TIMESTAMP`, `USERDEFINED1`, `USERDEFINED2`, `USERDEFINED3`, `USERDEFINED4`, `USERDEFINED5`, `USERDEFINED6`, `USERDEFINED7`, `USERDEFINED8`, `USERDEFINED9`, `USERDEFINED10`, `PICTURE1_ID`, `PICTURE2_ID`, `PICTURE3_ID`, `PERM_BOOK_MSG`, `BOOK_MSG2`, `HSCOMMENT`, `PUBWEB`, `LIST_AGENCY_ID`, `CO_LIST_AGENCY_ID`, `CO_SELL_AGENCY_ID`, `HOUSE_NBR_RANGE`, `GEO_LAT2`, `GEO_LON2`, `USERDEFINED11`, `USERDEFINED12`, `USERDEFINED13`, `USERDEFINED14`, `USERDEFINED15`, `USERDEFINED16`, `USERDEFINED17`, `USERDEFINED18`, `USERDEFINED19`, `USERDEFINED20`, `USERDEFINED21`, `USERDEFINED22`, `USERDEFINED23`, `USERDEFINED24`, `USERDEFINED25`, `USERDEFINED26`, `USERDEFINED27`, `USERDEFINED28`, `USERDEFINED29`, `USERDEFINED30`, `USERDEFINED31`, `USERDEFINED32`, `USERDEFINED33`, `USERDEFINED34`, `USERDEFINED35`, `DOM`, `ROOMS`, `FEATURES`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+  [1m[35mSQL (68.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed   in 295ms
+  [1m[36mSQL (68.6ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (68.6ms)[0m  BEGIN
+  [1m[36mListingDatum Load (147.9ms)[0m  [1mSELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = 980190962 LIMIT 1[0m
+  [1m[35mSQL (69.6ms)[0m  SELECT COUNT(*) FROM `listing_data`
+  Processing by ListingDataController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mListingDatum Load (142.4ms)[0m  [1mSELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = '980190962' LIMIT 1[0m
+  [1m[35mSQL (68.8ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAREL (69.4ms)[0m  [1mDELETE FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = '980190962'[0m
+  [1m[35mSQL (69.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/listing_data
+Completed 302 Found in 352ms
+  [1m[36mSQL (69.3ms)[0m  [1mSELECT COUNT(*) FROM `listing_data`[0m
+  [1m[35mSQL (200.3ms)[0m  ROLLBACK
+  [1m[36mSQL (68.8ms)[0m  [1mBEGIN[0m
+  [1m[35mListingDatum Load (73.8ms)[0m  SELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = 980190962 LIMIT 1
+  Processing by ListingDataController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mListingDatum Load (72.3ms)[0m  [1mSELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = '980190962' LIMIT 1[0m
+Rendered listing_data/_form.html.erb (178.0ms)
+Completed 200 OK in 360ms (Views: 286.9ms | ActiveRecord: 2992.2ms)
+  [1m[35mSQL (113.2ms)[0m  ROLLBACK
+  [1m[36mSQL (68.4ms)[0m  [1mBEGIN[0m
+  [1m[35mListingDatum Load (142.8ms)[0m  SELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = 980190962 LIMIT 1
+  Processing by ListingDataController#index as HTML
+  [1m[36mListingDatum Load (142.2ms)[0m  [1mSELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Completed 200 OK in 310ms (Views: 166.9ms | ActiveRecord: 466.7ms)
+  [1m[35mSQL (68.9ms)[0m  ROLLBACK
+  [1m[36mSQL (68.6ms)[0m  [1mBEGIN[0m
+  [1m[35mListingDatum Load (141.9ms)[0m  SELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = 980190962 LIMIT 1
+  Processing by ListingDataController#new as HTML
+Rendered listing_data/_form.html.erb (1.3ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 279.3ms)
+  [1m[36mSQL (72.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (68.7ms)[0m  BEGIN
+  [1m[36mListingDatum Load (72.2ms)[0m  [1mSELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = 980190962 LIMIT 1[0m
+  Processing by ListingDataController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mListingDatum Load (72.5ms)[0m  SELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = '980190962' LIMIT 1
+Completed 200 OK in 85ms (Views: 11.5ms | ActiveRecord: 285.6ms)
+  [1m[36mSQL (68.6ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (68.3ms)[0m  BEGIN
+  [1m[36mListingDatum Load (72.3ms)[0m  [1mSELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = 980190962 LIMIT 1[0m
+  Processing by ListingDataController#update as HTML
+  Parameters: {"listing_datum"=>{"AREA"=>nil, "ASSESSED_VAL"=>nil, "BATHS_3_4"=>nil, "BATHS_FULL"=>nil, "BATHS_HALF"=>nil, "BEGIN_DATE"=>nil, "BOOK_MSG2"=>nil, "BOOK_SEC"=>nil, "BOX_NBR"=>nil, "BUY_BROKER_COMM"=>nil, "CANCEL_DATE"=>nil, "CARD_FMT"=>nil, "CARRIER_ROUTE"=>nil, "CITY"=>nil, "CONTINGENT"=>nil, "CONTINGENT_REM"=>nil, "COUNTRY"=>nil, "COUNTY"=>nil, "CO_LIST_AGENCY_ID"=>nil, "CO_LIST_AGENT"=>nil, "CO_SELL_AGENCY_ID"=>nil, "CO_SELL_AGENT_ID"=>nil, "DIRECTIONS"=>nil, "DOM"=>nil, "END_DATE"=>nil, "FALLTHROUGH_DATE"=>nil, "FEATURES"=>nil, "FINANCING"=>nil, "GARAGE_REM"=>nil, "GARAGE_STALL"=>nil, "GARAGE_TYPE"=>nil, "GEO_BLOCK"=>nil, "GEO_COUNTY"=>nil, "GEO_LAT"=>nil, "GEO_LAT2"=>nil, "GEO_LON"=>nil, "GEO_LON2"=>nil, "HIGH_PRICE"=>nil, "HOUSE_NBR"=>nil, "HOUSE_NBR_RANGE"=>nil, "HOW_TO_SHOW"=>nil, "HSCOMMENT"=>nil, "LEGAL"=>nil, "LIST_AGENCY_ID"=>nil, "LIST_NBR"=>nil, "LIST_PRICE"=>nil, "LOCK_BOX_NBR"=>nil, "LOT_ACRES"=>nil, "LOT_SIZE"=>nil, "LOW_PRICE"=>nil, "MA_APPROVED"=>nil, "MA_TECH_ID"=>nil, "ME_TECH_ID"=>"980190962", "MOD_TIMESTAMP"=>nil, "ORIG_LIST_PRICE"=>nil, "OTHER_COMM"=>nil, "OWNER"=>nil, "OWNER_CONTACT"=>nil, "OWNER_PHONE"=>nil, "PARCEL_NBR"=>nil, "PERM_BOOK_MSG"=>nil, "PICTURE1_ID"=>nil, "PICTURE2_ID"=>nil, "PICTURE3_ID"=>nil, "PREFIX"=>nil, "PROP_GROUP_ID"=>nil, "PUBWEB"=>nil, "REMARK1"=>nil, "REMARK2"=>nil, "ROOMS"=>nil, "SELL_AGENCY_ID"=>nil, "SELL_AGENT_ID"=>nil, "SELL_BROKER_COMM"=>nil, "SOLD_DATE"=>nil, "SOLD_PRICE"=>nil, "SQFT1"=>nil, "SQFT2"=>nil, "SQFT3"=>nil, "SQFT4"=>nil, "STATE"=>nil, "STATUS"=>nil, "STATUS_CHANGE_DATE"=>nil, "STORIES"=>nil, "STREETADDLINFO"=>nil, "STREETDIRPREFIX"=>nil, "STREETDIRSUFFIX"=>nil, "STREETNAME"=>nil, "STREETSUFFIX"=>nil, "STYLE"=>nil, "SUBDIVISION"=>nil, "TAXES"=>nil, "TAX_YEAR"=>nil, "TECH_ID"=>nil, "TERMS"=>nil, "TOTAL_BATH"=>nil, "TOTAL_BR"=>nil, "TOTAL_ROOMS"=>nil, "TOTAL_SQFT"=>nil, "TYPE"=>nil, "UN_CONTR_DATE"=>nil, "USERDEFINED1"=>nil, "USERDEFINED10"=>nil, "USERDEFINED11"=>nil, "USERDEFINED12"=>nil, "USERDEFINED13"=>nil, "USERDEFINED14"=>nil, "USERDEFINED15"=>nil, "USERDEFINED16"=>nil, "USERDEFINED17"=>nil, "USERDEFINED18"=>nil, "USERDEFINED19"=>nil, "USERDEFINED2"=>nil, "USERDEFINED20"=>nil, "USERDEFINED21"=>nil, "USERDEFINED22"=>nil, "USERDEFINED23"=>nil, "USERDEFINED24"=>nil, "USERDEFINED25"=>nil, "USERDEFINED26"=>nil, "USERDEFINED27"=>nil, "USERDEFINED28"=>nil, "USERDEFINED29"=>nil, "USERDEFINED3"=>nil, "USERDEFINED30"=>nil, "USERDEFINED31"=>nil, "USERDEFINED32"=>nil, "USERDEFINED33"=>nil, "USERDEFINED34"=>nil, "USERDEFINED35"=>nil, "USERDEFINED4"=>nil, "USERDEFINED5"=>nil, "USERDEFINED6"=>nil, "USERDEFINED7"=>nil, "USERDEFINED8"=>nil, "USERDEFINED9"=>nil, "WITHDRAW_DATE"=>nil, "YR_BUILT"=>nil, "ZIP"=>nil, "ZONING"=>nil}, "id"=>"980190962"}
+  [1m[35mListingDatum Load (73.9ms)[0m  SELECT `listing_data`.* FROM `listing_data` WHERE `listing_data`.`ME_TECH_ID` = '980190962' LIMIT 1
+  [1m[36mSQL (68.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes: ME_TECH_ID
+  [1m[35mSQL (68.6ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/listing_data/980190962
+Completed 302 Found in 251ms
+  [1m[36mSQL (68.9ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (68.9ms)[0m  BEGIN
+  [1m[36mMember Load (70.4ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1[0m
+  [1m[35mSQL (69.1ms)[0m  SELECT COUNT(*) FROM `members`
+  Processing by MembersController#create as HTML
+  Parameters: {"member"=>{"Address"=>nil, "AgentID"=>980190962, "City"=>nil, "Country"=>nil, "Email"=>nil, "Extension"=>nil, "Fax"=>nil, "Full_Name"=>nil, "Last_Name"=>nil, "OfficeID"=>nil, "Pager"=>nil, "Phone"=>nil, "Short ID"=>nil, "State"=>nil, "URL"=>nil, "Zip"=>nil}}
+WARNING: Can't mass-assign protected attributes: AgentID
+  [1m[36mSQL (69.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (70.7ms)[0m  describe `members`
+  [1m[36mAREL (69.1ms)[0m  [1mINSERT INTO `members` (`OfficeID`, `Full_Name`, `Last_Name`, `Phone`, `Extension`, `Address`, `City`, `State`, `Zip`, `Country`, `Fax`, `Pager`, `Email`, `URL`, `Short ID`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)[0m
+  [1m[35mSQL (68.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/members/980190963
+Completed 302 Found in 281ms
+  [1m[36mSQL (69.5ms)[0m  [1mSELECT COUNT(*) FROM `members`[0m
+  [1m[35mSQL (79.0ms)[0m  ROLLBACK
+  [1m[36mSQL (68.4ms)[0m  [1mBEGIN[0m
+  [1m[35mMember Load (70.5ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1
+  [1m[36mSQL (68.5ms)[0m  [1mSELECT COUNT(*) FROM `members`[0m
+  Processing by MembersController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mMember Load (70.2ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1
+  [1m[36mSQL (68.6ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAREL (68.8ms)[0m  DELETE FROM `members` WHERE `members`.`AgentID` = 980190962
+  [1m[36mSQL (68.8ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/members
+Completed 302 Found in 279ms
+  [1m[35mSQL (69.0ms)[0m  SELECT COUNT(*) FROM `members`
+  [1m[36mSQL (503.8ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (68.5ms)[0m  BEGIN
+  [1m[36mMember Load (70.5ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1[0m
+  Processing by MembersController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mMember Load (70.1ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1
+Rendered members/_form.html.erb (2.5ms)
+Completed 200 OK in 125ms (Views: 54.5ms | ActiveRecord: 2388.7ms)
+  [1m[36mSQL (69.0ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (68.5ms)[0m  BEGIN
+  [1m[36mMember Load (70.4ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1[0m
+  Processing by MembersController#index as HTML
+  [1m[35mMember Load (70.8ms)[0m  SELECT `members`.* FROM `members`
+Completed 200 OK in 91ms (Views: 19.5ms | ActiveRecord: 278.6ms)
+  [1m[36mSQL (68.6ms)[0m  [1mROLLBACK[0m
+  [1m[35mSQL (68.9ms)[0m  BEGIN
+  [1m[36mMember Load (70.3ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1[0m
+  Processing by MembersController#new as HTML
+Rendered members/_form.html.erb (1.2ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 207.7ms)
+  [1m[35mSQL (69.4ms)[0m  ROLLBACK
+  [1m[36mSQL (68.5ms)[0m  [1mBEGIN[0m
+  [1m[35mMember Load (69.9ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1
+  Processing by MembersController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mMember Load (70.2ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1[0m
+Completed 200 OK in 91ms (Views: 19.9ms | ActiveRecord: 278.0ms)
+  [1m[35mSQL (69.1ms)[0m  ROLLBACK
+  [1m[36mSQL (68.8ms)[0m  [1mBEGIN[0m
+  [1m[35mMember Load (70.7ms)[0m  SELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1
+  Processing by MembersController#update as HTML
+  Parameters: {"member"=>{"Address"=>nil, "AgentID"=>980190962, "City"=>nil, "Country"=>nil, "Email"=>nil, "Extension"=>nil, "Fax"=>nil, "Full_Name"=>nil, "Last_Name"=>nil, "OfficeID"=>nil, "Pager"=>nil, "Phone"=>nil, "Short ID"=>nil, "State"=>nil, "URL"=>nil, "Zip"=>nil}, "id"=>"980190962"}
+  [1m[36mMember Load (70.4ms)[0m  [1mSELECT `members`.* FROM `members` WHERE `members`.`AgentID` = 980190962 LIMIT 1[0m
+  [1m[35mSQL (68.9ms)[0m  SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes: AgentID
+  [1m[36mSQL (68.8ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/members/980190962
+Completed 302 Found in 211ms
+  [1m[35mSQL (68.8ms)[0m  ROLLBACK

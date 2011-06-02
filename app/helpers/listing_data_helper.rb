@@ -1,0 +1,2 @@
+module ListingDataHelper
+end

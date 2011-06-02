@@ -1,0 +1,2 @@
+module VirtualToursHelper
+end

@@ -1,0 +1,27 @@
+<table cellpadding="0px" cellspacing="0px">
+<% @properties.each do |properties| %>
+  <tr style="width:30px;">
+    <td><font face="times, times new roman, serif" size="4">MLS# <%= properties.PREFIX %>-<%= properties.LIST_NBR %></font></td>
+  </tr>
+  <tr>
+    <td><img alt="Image" style="padding:5px 5px 5px 5px;" border="1" width="200px" height="150px" src="/images/<%= properties.PREFIX %>/<%= properties.LIST_NBR %>/<%= properties.PREFIX %>-<%= properties.LIST_NBR %>_1.jpg"><br />
+      <center><%= submit_tag "View Details", :class => "button", :action => "show" %>&nbsp;&nbsp;<%= submit_tag "Add To Favorites", :class => "button" %></center>
+    </td>
+    
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td valign="top">
+      <b><font size="4">Price:&nbsp;<%=h number_to_currency properties.LIST_PRICE, :precision => 0 %></font></b><br />
+      <%= properties.AREA %><br />
+      <b>Bedrooms:&nbsp; Bathrooms:</b><br />
+      <b>Type:</b>&nbsp;<%= properties.BOOK_SEC %><br />
+      <b>Details:</b><br />
+      <div style="width:350px;"><%= truncate(properties.REMARK1, :length => 173, :omission => '...') %></div><br />
+    </td>
+  </tr>
+  <tr>
+    <td style="width:150px;"><br /></td>
+  </tr>
+<% end %>
+</table>
+<%= paginate @properties %>
+

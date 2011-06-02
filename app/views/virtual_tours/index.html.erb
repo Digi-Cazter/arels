@@ -1,0 +1,21 @@
+<h1>Listing virtual_tours</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @virtual_tours.each do |virtual_tour| %>
+  <tr>
+    <td><%= link_to 'Show', virtual_tour %></td>
+    <td><%= link_to 'Edit', edit_virtual_tour_path(virtual_tour) %></td>
+    <td><%= link_to 'Destroy', virtual_tour, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Virtual tour', new_virtual_tour_path %>

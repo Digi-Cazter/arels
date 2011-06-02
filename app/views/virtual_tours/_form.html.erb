@@ -1,0 +1,17 @@
+<%= form_for(@virtual_tour) do |f| %>
+  <% if @virtual_tour.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@virtual_tour.errors.count, "error") %> prohibited this virtual_tour from being saved:</h2>
+
+      <ul>
+      <% @virtual_tour.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

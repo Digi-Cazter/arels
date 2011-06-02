@@ -1,0 +1,19 @@
+<h1>Listing listing_data</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @listing_data.each do |listing_datum| %>
+  <tr>
+    <td>MLS# <%= listing_datum.PREFIX %>-<%= listing_datum.LIST_NBR %></td>
+    <td><%= link_to 'Show', listing_datum %></td>
+  </tr>
+  <tr>
+    <td><img alt="Image" src="/images/<%= listing_datum.PREFIX %>/<%= listing_datum.LIST_NBR %>/<%= listing_datum.PREFIX %>-<%= listing_datum.LIST_NBR %>_1.jpg"> </td>
+  </tr>
+<% end %>
+</table>
