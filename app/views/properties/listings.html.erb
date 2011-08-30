@@ -12,7 +12,7 @@
     <td valign="top">
       <b><font size="4">Price:&nbsp;<%=h number_to_currency properties.LIST_PRICE, :precision => 0 %></font></b><br />
       <%= properties.AREA %><br />
-      <b>Bedrooms:&nbsp; Bathrooms:</b><br />
+      <b>Bedrooms:&nbsp;<%= getRooms(properties.ROOMS) %> Bathrooms:</b><br />
       <b>Type:</b>&nbsp;<%= properties.BOOK_SEC %><br />
       <b>Details:</b><br />
       <div style="width:350px;"><%= truncate(properties.REMARK1, :length => 173, :omission => '...') %></div><br />

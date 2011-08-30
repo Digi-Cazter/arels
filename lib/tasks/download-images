@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+
+require 'net/ftp'
+require 'fileutils'
+
+Dir.chdir '/home/donavan/projects/rails-apps/arels/tmp/files'
+$filename = Time.now.strftime("%Y%m%d")
+
+puts "Downloading FTP File..." 
+ftp=Net::FTP.new
+ftp.connect("idx.wcbr.org",21)
+ftp.login("studio9","DW052110")
+ftp.getbinaryfile("stg-1." + $filename + ".0450.zip")
+ftp.close
+
+puts "Unzipping File..."
+system("unzip -qq stg-1." + $filename + ".0450.zip -d ./" + $filename)
+
+puts "Organizing Images..."
+system("cd ./" + $filename + " && ls -1 *.jpg > list && cd ../..")
+list = File.new("./" + $filename + "/list", "r")
+
+while (images = list.gets)
+  images = images.chomp
+  folder = /.*-(.*)_.*/.match(images)  
+  Dir.mkdir("../../public/images/" + images[0,2]) unless File.directory?("../../public/images/" + images[0,2])
+  Dir.mkdir("../../public/images/" + images[0,2] + "/" + folder[1]) unless File.directory?("../../public/images/" + images[0,2] + "/" + folder[1])
+  FileUtils.mv("./" + $filename + "/" + images,"../../public/images/" + images[0,2] + "/" + folder[1]) 
+end
+
+puts "Cleaning Up..."
+FileUtils.rm_rf Dir.glob("../../tmp/files/*")
+
+puts "Completed Successfully"
+

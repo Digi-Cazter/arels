@@ -9394,3 +9394,1384 @@ Started GET "/" for 127.0.0.1 at 2011-06-02 08:09:03 -0600
   [1m[36mSQL (70.5ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
 Rendered properties/listings.html.erb within layouts/application (1016.9ms)
 Completed 200 OK in 1077ms (Views: 635.9ms | ActiveRecord: 388.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 16:27:14 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (261.4ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.7ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb within layouts/application (1089.8ms)
+Completed 200 OK in 1143ms (Views: 707.6ms | ActiveRecord: 402.5ms)
+
+
+Started GET "/images/10/124950/10-124950_1.jpg" for 127.0.0.1 at 2011-06-08 16:27:16 -0600
+
+ActionController::RoutingError (No route matches "/images/10/124950/10-124950_1.jpg"):
+  
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/10/123884/10-123884_1.jpg" for 127.0.0.1 at 2011-06-08 16:27:16 -0600
+
+ActionController::RoutingError (No route matches "/images/10/123884/10-123884_1.jpg"):
+  
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/10/125348/10-125348_1.jpg" for 127.0.0.1 at 2011-06-08 16:27:16 -0600
+
+ActionController::RoutingError (No route matches "/images/10/125348/10-125348_1.jpg"):
+  
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/11/125624/11-125624_1.jpg" for 127.0.0.1 at 2011-06-08 16:27:16 -0600
+
+ActionController::RoutingError (No route matches "/images/11/125624/11-125624_1.jpg"):
+  
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/images/11/125984/11-125984_1.jpg" for 127.0.0.1 at 2011-06-08 16:27:16 -0600
+
+ActionController::RoutingError (No route matches "/images/11/125984/11-125984_1.jpg"):
+  
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 16:29:18 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (251.4ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (71.5ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb within layouts/application (992.9ms)
+Completed 200 OK in 1018ms (Views: 602.5ms | ActiveRecord: 393.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 16:29:31 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mProperty Load (230.3ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.3ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/application (902.8ms)
+Completed 200 OK in 914ms (Views: 605.5ms | ActiveRecord: 300.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 16:44:08 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.9ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (251.4ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (71.4ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (1039.7ms)
+Completed 200 OK in 1064ms (Views: 647.8ms | ActiveRecord: 393.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 16:44:32 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (71.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (249.8ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (71.1ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (999.3ms)
+Completed 200 OK in 1023ms (Views: 608.8ms | ActiveRecord: 392.3ms)
+  [1m[36mSQL (69.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (70.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (69.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateOffices (20110523155422)
+  [1m[35mSQL (69.4ms)[0m  CREATE TABLE `offices` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+Mysql::Error: Table 'offices' already exists: CREATE TABLE `offices` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:21:38 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (71.0ms)[0m  [1mSHOW TABLES[0m
+Completed   in 161ms
+
+NoMethodError (undefined method `DomainName' for #<Class:0x00000002f3e3d0>):
+  app/controllers/application_controller.rb:5:in `agent_domain'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:31:33 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (180.3ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.3ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL[0m
+Rendered properties/listings.html.erb within layouts/application (682.1ms)
+Completed 200 OK in 876ms (Views: 434.7ms | ActiveRecord: 321.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:34:05 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.9ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (178.4ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.1ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL[0m
+Rendered properties/listings.html.erb within layouts/application (660.4ms)
+Completed 200 OK in 850ms (Views: 415.2ms | ActiveRecord: 318.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:35:16 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (68.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (271.9ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = 20080617144733391735000000 LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.7ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = 20080617144733391735000000[0m
+Rendered properties/listings.html.erb within layouts/application (826.3ms)
+Completed 200 OK in 852ms (Views: 418.2ms | ActiveRecord: 411.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:35:19 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mProperty Load (150.5ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = 20080617144733391735000000 LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.8ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = 20080617144733391735000000[0m
+Rendered properties/listings.html.erb within layouts/application (629.3ms)
+Completed 200 OK in 673ms (Views: 411.4ms | ActiveRecord: 221.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:35:21 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mProperty Load (150.1ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = 20080617144733391735000000 LIMIT 5 OFFSET 0
+  [1m[36mSQL (71.1ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = 20080617144733391735000000[0m
+Rendered properties/listings.html.erb within layouts/application (627.9ms)
+Completed 200 OK in 639ms (Views: 410.2ms | ActiveRecord: 221.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:36:50 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (252.8ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.4ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/application (1015.5ms)
+Completed 200 OK in 1041ms (Views: 625.0ms | ActiveRecord: 393.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:41:44 -0600
+
+SyntaxError (/home/donavan/projects/rails-apps/arels/app/controllers/application_controller.rb:5: syntax error, unexpected '=', expecting ')'
+    @domain = AgentSettings.where(:DomainName = request.domain)
+                                               ^
+/home/donavan/projects/rails-apps/arels/app/controllers/application_controller.rb:5: syntax error, unexpected ')', expecting keyword_end):
+  app/controllers/properties_controller.rb:1:in `<top (required)>'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:42:05 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.8ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (176.2ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.0ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL[0m
+Rendered properties/listings.html.erb within layouts/application (660.2ms)
+Completed 200 OK in 850ms (Views: 417.1ms | ActiveRecord: 316.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 17:43:55 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.1ms)[0m  [1mSHOW TABLES[0m
+Completed   in 158ms
+
+NoMethodError (undefined method `domainname' for #<Class:0x00000004624a90>):
+  app/controllers/application_controller.rb:5:in `agent_domain'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:02:22 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (71.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (71.9ms)[0m  SELECT `agent_settings`.* FROM `agent_settings` WHERE `agent_settings`.`DomainName` LIKE 'localhost' AND `agent_settings`.`AgentID` = 'DomainName' LIMIT 1
+Completed   in 456ms
+
+ActiveRecord::RecordNotFound (Couldn't find AgentSettings with ID=DomainName [WHERE `agent_settings`.`DomainName` LIKE 'localhost']):
+  app/controllers/application_controller.rb:5:in `agent_domain'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:06:43 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.7ms)[0m  SELECT `agent_settings`.* FROM `agent_settings` WHERE `agent_settings`.`DomainName` LIKE 'localhost' AND `agent_settings`.`AgentID` = 'DomainName' LIMIT 1
+Completed   in 699ms
+
+ActiveRecord::RecordNotFound (Couldn't find AgentSettings with ID=DomainName [WHERE `agent_settings`.`DomainName` LIKE 'localhost']):
+  app/controllers/application_controller.rb:5:in `agent_domain'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:08:33 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.9ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (71.0ms)[0m  SELECT `agent_settings`.* FROM `agent_settings` WHERE `agent_settings`.`DomainName` LIKE 'localhost'
+  [1m[36mProperty Load (143.5ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (70.0ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL
+Rendered properties/listings.html.erb within layouts/application (662.3ms)
+Completed 200 OK in 965ms (Views: 465.0ms | ActiveRecord: 354.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:13:53 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.7ms)[0m  SELECT `agent_settings`.* FROM `agent_settings` WHERE `agent_settings`.`DomainName` LIKE 'localhost' AND `agent_settings`.`AgentID` = 'DomainName' LIMIT 1
+Completed   in 425ms
+
+ActiveRecord::RecordNotFound (Couldn't find AgentSettings with ID=DomainName [WHERE `agent_settings`.`DomainName` LIKE 'localhost']):
+  app/controllers/application_controller.rb:5:in `agent_domain'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:15:13 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.4ms)[0m  [1mSHOW TABLES[0m
+Completed   in 159ms
+
+NoMethodError (undefined method `DomainName' for #<Class:0x000000041861f0>):
+  app/controllers/application_controller.rb:5:in `agent_domain'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:15:46 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.7ms)[0m  [1mSHOW TABLES[0m
+Completed   in 159ms
+
+NoMethodError (undefined method `domainname' for #<Class:0x00000002e36aa0>):
+  app/controllers/application_controller.rb:5:in `agent_domain'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:18:38 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (71.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (71.5ms)[0m  SELECT agent_settings.DomainName FROM `agent_settings` WHERE `agent_settings`.`DomainName` LIKE 'localhost'
+  [1m[36mProperty Load (181.8ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (70.8ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL
+Rendered properties/listings.html.erb within layouts/application (688.2ms)
+Completed 200 OK in 960ms (Views: 438.8ms | ActiveRecord: 395.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:26:45 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (177.9ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.4ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL[0m
+Rendered properties/listings.html.erb within layouts/application (745.3ms)
+Completed 200 OK in 772ms (Views: 430.0ms | ActiveRecord: 318.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:27:08 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mProperty Load (144.0ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.1ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL[0m
+Rendered properties/listings.html.erb within layouts/application (649.2ms)
+Completed 200 OK in 732ms (Views: 443.6ms | ActiveRecord: 214.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:27:52 -0600
+  Processing by PropertiesController#listings as HTML
+Completed   in 1ms
+
+NameError (undefined local variable or method `domain' for #<PropertiesController:0x00000004184918>):
+  app/controllers/application_controller.rb:5:in `agent_settings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:29:03 -0600
+  Processing by PropertiesController#listings as HTML
+Completed   in 4ms
+
+SyntaxError (/home/donavan/projects/rails-apps/arels/app/models/agent_settings.rb:5: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/application_controller.rb:5:in `agent_settings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:29:07 -0600
+  Processing by PropertiesController#listings as HTML
+Completed   in 4ms
+
+SyntaxError (/home/donavan/projects/rails-apps/arels/app/models/agent_settings.rb:5: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/application_controller.rb:5:in `agent_settings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:32:36 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.9ms)[0m  SELECT agent_settings.DomainName FROM `agent_settings` WHERE `agent_settings`.`DomainName` LIKE 'localhost'
+  [1m[36mProperty Load (178.2ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (70.9ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL
+Rendered properties/listings.html.erb within layouts/application (671.3ms)
+Completed 200 OK in 942ms (Views: 425.5ms | ActiveRecord: 390.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 08:58:11 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (89.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.4ms)[0m  SELECT agent_settings.DomainName FROM `agent_settings` WHERE `agent_settings`.`DomainName` LIKE 'localhost'
+  [1m[36mProperty Load (142.0ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (68.8ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL
+Rendered properties/listings.html.erb within layouts/application (658.6ms)
+Completed 200 OK in 630070ms (Views: 454.9ms | ActiveRecord: 370.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 09:14:41 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (84.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (69.8ms)[0m  SELECT agent_settings.DomainName FROM `agent_settings` WHERE `agent_settings`.`DomainName` LIKE 'localhost'
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:04:18 -0600
+
+SyntaxError (/home/donavan/projects/rails-apps/arels/app/controllers/application_controller.rb:5: syntax error, unexpected tASSOC, expecting '}'
+...mainName').where{:DomainName => request.domain}.first
+...                               ^):
+  app/controllers/properties_controller.rb:1:in `<top (required)>'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.6ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:06:27 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (69.5ms)[0m  SELECT DomainName FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:12:15 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.2ms)[0m  SELECT DomainName FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[36mProperty Load (143.9ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (70.3ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL
+Rendered properties/listings.html.erb within layouts/application (704.8ms)
+Completed 200 OK in 1046ms (Views: 530.7ms | ActiveRecord: 354.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:17:31 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (140.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (148.4ms)[0m  SELECT DomainName FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:18:23 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (142.8ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (140.4ms)[0m  SELECT DomainName FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[36mProperty Load (487.6ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (98.1ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/application (1543.3ms)
+Completed 200 OK in 2173ms (Views: 960.8ms | ActiveRecord: 868.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:21:09 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (520.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (146.9ms)[0m  SELECT DomainName, AgentID FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[36mProperty Load (592.7ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (149.5ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/application (2236.1ms)
+Completed 200 OK in 3256ms (Views: 1497.3ms | ActiveRecord: 1409.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:23:44 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (154.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (150.3ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[36mProperty Load (475.6ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (148.2ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb (1570.1ms)
+Completed 200 OK in 2220ms (Views: 947.7ms | ActiveRecord: 928.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:25:14 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (135.9ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (140.2ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:26:16 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (145.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (122.5ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (418.1ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (140.6ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb (1707.8ms)
+Completed 200 OK in 24627ms (Views: 1154.6ms | ActiveRecord: 826.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:26:47 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (147.5ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (593.0ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (143.2ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (2661.2ms)
+Completed 200 OK in 14734ms (Views: 1927.3ms | ActiveRecord: 883.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:27:21 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (142.9ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (485.1ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (461.7ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (125.6ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb (2670.5ms)
+Completed 200 OK in 3990ms (Views: 2084.5ms | ActiveRecord: 1215.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:27:28 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (143.5ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (429.5ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (144.7ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (1480.2ms)
+Completed 200 OK in 1931ms (Views: 908.2ms | ActiveRecord: 717.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:27:31 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (140.7ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (410.0ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (135.7ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (1476.8ms)
+Completed 200 OK in 1934ms (Views: 932.9ms | ActiveRecord: 686.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:27:34 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (138.0ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (404.0ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (164.3ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (1492.5ms)
+Completed 200 OK in 1981ms (Views: 925.9ms | ActiveRecord: 706.4ms)
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2011-06-09 14:28:04 -0600
+  Processing by PropertiesController#listings as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mAgentSettings Load (144.8ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (415.6ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 5[0m
+  [1m[35mSQL (512.4ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (1837.1ms)
+Completed 200 OK in 2292ms (Views: 910.9ms | ActiveRecord: 1072.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:29:22 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (138.3ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (286.9ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (148.4ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (1190.5ms)
+Completed 200 OK in 1643ms (Views: 757.5ms | ActiveRecord: 573.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:29:41 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (504.8ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (290.7ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (523.8ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000'
+Rendered properties/listings.html.erb within layouts/2 (1616.5ms)
+Completed 200 OK in 2504ms (Views: 816.3ms | ActiveRecord: 1319.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:29:45 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (141.7ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (780.3ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (151.4ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (1689.1ms)
+Completed 200 OK in 2166ms (Views: 759.9ms | ActiveRecord: 1073.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:29:49 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (143.5ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (301.5ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (146.0ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000'
+Rendered properties/listings.html.erb within layouts/2 (1276.0ms)
+Completed 200 OK in 1727ms (Views: 831.4ms | ActiveRecord: 591.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:29:53 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (144.7ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (284.0ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (132.6ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002751022350000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (2090.5ms)
+Completed 200 OK in 2589ms (Views: 1675.7ms | ActiveRecord: 561.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:30:44 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (128.2ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (447.5ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (142.9ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/2 (1533.1ms)
+Completed 200 OK in 1967ms (Views: 944.4ms | ActiveRecord: 718.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:30:54 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (504.4ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (728.1ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (142.8ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (2301.9ms)
+Completed 200 OK in 3160ms (Views: 1432.7ms | ActiveRecord: 1375.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:31:01 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (153.9ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (586.8ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (153.3ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (1755.5ms)
+Completed 200 OK in 2604ms (Views: 1020.1ms | ActiveRecord: 894.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:31:33 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (125.7ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (1078.0ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (140.1ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (2119.4ms)
+Completed 200 OK in 2598ms (Views: 903.2ms | ActiveRecord: 1343.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:31:42 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (131.9ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (562.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (144.1ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/2 (1611.5ms)
+Completed 200 OK in 2098ms (Views: 907.1ms | ActiveRecord: 838.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:32:01 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (147.1ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (950.5ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (145.0ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (2024.6ms)
+Completed 200 OK in 3642ms (Views: 931.5ms | ActiveRecord: 1242.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:32:10 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (142.9ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (564.9ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (130.8ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (1613.9ms)
+Completed 200 OK in 2119ms (Views: 920.0ms | ActiveRecord: 838.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:33:31 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (130.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (136.8ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (486.8ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (144.9ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb (1610.0ms)
+Completed 200 OK in 2221ms (Views: 980.5ms | ActiveRecord: 898.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:33:37 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (507.9ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (614.0ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (145.4ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (1704.3ms)
+Completed 200 OK in 2569ms (Views: 947.6ms | ActiveRecord: 1267.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:33:45 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (514.5ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (483.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (148.9ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/1 (1524.2ms)
+Completed 200 OK in 2355ms (Views: 894.5ms | ActiveRecord: 1146.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:33:49 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (145.3ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (445.7ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (520.7ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (1876.8ms)
+Completed 200 OK in 2339ms (Views: 913.1ms | ActiveRecord: 1111.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:37:02 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (141.4ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (952.0ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (132.6ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/2 (1974.5ms)
+Completed 200 OK in 2435ms (Views: 892.7ms | ActiveRecord: 1226.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:37:27 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (152.3ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (1046.6ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (129.5ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (2117.9ms)
+Completed 200 OK in 2574ms (Views: 944.5ms | ActiveRecord: 1328.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:37:30 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (149.3ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (424.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (118.4ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (1453.9ms)
+Completed 200 OK in 1956ms (Views: 914.2ms | ActiveRecord: 692.2ms)
+
+
+Started GET "/" for 192.168.100.142 at 2011-06-09 14:39:43 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (156.8ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (449.2ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (143.5ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (1461.8ms)
+Completed 200 OK in 1951ms (Views: 871.9ms | ActiveRecord: 749.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:45:35 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (140.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (146.6ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (463.3ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (148.4ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb (1540.5ms)
+Completed 200 OK in 2547ms (Views: 931.1ms | ActiveRecord: 898.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:45:56 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (505.6ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (460.1ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (127.0ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (2691.9ms)
+Completed 200 OK in 3511ms (Views: 2107.4ms | ActiveRecord: 1092.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:46:12 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (148.4ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (448.6ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (138.3ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/1 (1492.9ms)
+Completed 200 OK in 1997ms (Views: 908.7ms | ActiveRecord: 735.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 14:46:19 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (142.3ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (438.0ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (536.7ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (1908.1ms)
+Completed 200 OK in 2360ms (Views: 936.1ms | ActiveRecord: 1117.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:09:16 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (493.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (146.0ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (295.3ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (149.1ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL
+Rendered properties/listings.html.erb (1306.0ms)
+Completed 200 OK in 2366ms (Views: 900.0ms | ActiveRecord: 1083.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:09:29 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (147.8ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (694.0ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL LIMIT 5 OFFSET 0
+  [1m[36mSQL (143.6ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` IS NULL[0m
+Rendered properties/listings.html.erb (2009.0ms)
+Completed 200 OK in 2477ms (Views: 1172.7ms | ActiveRecord: 985.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:10:29 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (130.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (141.3ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (647.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (142.7ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb (2299.2ms)
+Completed 200 OK in 2909ms (Views: 1510.6ms | ActiveRecord: 1061.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:11:06 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (147.8ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (442.1ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (148.7ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb (2431.9ms)
+Completed 200 OK in 2875ms (Views: 1842.4ms | ActiveRecord: 738.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:11:13 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (136.8ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (573.8ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (152.7ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb (2185.8ms)
+Completed 200 OK in 2637ms (Views: 1461.2ms | ActiveRecord: 863.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:11:59 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (157.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (141.6ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+Completed   in 626ms
+
+NoMethodError (undefined method `layout' for #<PropertiesController:0x000000038f2a48>):
+  app/controllers/application_controller.rb:10:in `agent_settings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:12:30 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (132.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (144.1ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+Completed   in 632ms
+
+NoMethodError (undefined method `layouts' for #<PropertiesController:0x000000046e97a0>):
+  app/controllers/application_controller.rb:10:in `agent_settings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:13:05 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (147.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (508.7ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (1213.8ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (149.6ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb (2331.1ms)
+Completed 200 OK in 3353ms (Views: 983.2ms | ActiveRecord: 2019.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:13:12 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (148.4ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (623.6ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (157.7ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb (2525.7ms)
+Completed 200 OK in 2989ms (Views: 1746.6ms | ActiveRecord: 929.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:35:20 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (153.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (137.7ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (432.2ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (142.6ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/2 (1543.3ms)
+Completed 200 OK in 2199ms (Views: 989.6ms | ActiveRecord: 865.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:35:49 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (150.4ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (436.5ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (149.7ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (1882.7ms)
+Completed 200 OK in 2393ms (Views: 1314.6ms | ActiveRecord: 736.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:36:04 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (126.2ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (404.1ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (129.3ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/2 (1449.4ms)
+Completed 200 OK in 1844ms (Views: 918.8ms | ActiveRecord: 659.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:40:03 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (140.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (134.2ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (537.0ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (139.9ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/2 (1609.3ms)
+Completed 200 OK in 2209ms (Views: 934.3ms | ActiveRecord: 951.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:40:12 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (134.6ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (416.1ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (149.4ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (1478.5ms)
+Completed 200 OK in 2333ms (Views: 914.9ms | ActiveRecord: 700.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-09 16:40:34 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[35mAgentSettings Load (147.0ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (423.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (155.1ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/2 (1852.1ms)
+Completed 200 OK in 2291ms (Views: 1275.4ms | ActiveRecord: 725.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:02:57 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (86.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (78.9ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (243.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (70.2ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (1060.6ms)
+Completed 200 OK in 1481ms (Views: 779.1ms | ActiveRecord: 479.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:03:11 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (70.7ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (228.6ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.1ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (895.8ms)
+Completed 200 OK in 1132ms (Views: 599.3ms | ActiveRecord: 369.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:04:07 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (69.6ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (246.9ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+  [1m[35mSQL (69.7ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (976.4ms)
+Completed 200 OK in 1336ms (Views: 662.0ms | ActiveRecord: 455.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:05:29 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.5ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (252.2ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+Completed   in 1057ms
+
+NameError (undefined local variable or method `properties' for #<PropertiesController:0x00000004cf1c60>):
+  app/controllers/properties_controller.rb:16:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:06:06 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.8ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (248.8ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+Completed   in 1046ms
+
+NoMethodError (undefined method `ROOMS' for #<ActiveRecord::Relation:0x0000000510dcb8>):
+  app/controllers/properties_controller.rb:16:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.6ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:08:14 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.8ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (215.7ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 1[0m
+Completed   in 974ms
+
+NoMethodError (undefined method `page' for #<Property:0x000000054b4d58>):
+  app/controllers/properties_controller.rb:15:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:10:40 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (69.9ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (213.5ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 1[0m
+  [1m[35mProperty Load (214.4ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0
+  [1m[36mSQL (70.3ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (679.2ms)
+Completed 200 OK in 33591ms (Views: 398.4ms | ActiveRecord: 638.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:22:26 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.2ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (215.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 1[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:23:14 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (69.2ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (245.2ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+Rendered properties/listings.html.erb within layouts/1 (719.2ms)
+Completed   in 1055ms
+
+ActionView::Template::Error (undefined method `ROOM' for #<Property:0x000000056a0900>):
+    12:     <td valign="top">
+    13:       <b><font size="4">Price:&nbsp;<%=h number_to_currency properties.LIST_PRICE, :precision => 0 %></font></b><br />
+    14:       <%= properties.AREA %><br />
+    15:       <b>Bedrooms:&nbsp;<%= property(properties.ROOM) %> Bathrooms:</b><br />
+    16:       <b>Type:</b>&nbsp;<%= properties.BOOK_SEC %><br />
+    17:       <b>Details:</b><br />
+    18:       <div style="width:350px;"><%= truncate(properties.REMARK1, :length => 173, :omission => '...') %></div><br />
+  app/views/properties/listings.html.erb:15:in `block in _app_views_properties_listings_html_erb___1399223220702778794_46861580__1461819493404038026'
+  app/views/properties/listings.html.erb:2:in `_app_views_properties_listings_html_erb___1399223220702778794_46861580__1461819493404038026'
+  app/controllers/properties_controller.rb:16:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:23:51 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.1ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (215.3ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+Rendered properties/listings.html.erb within layouts/1 (817.1ms)
+Completed   in 1167ms
+
+ActionView::Template::Error (undefined method `property' for #<#<Class:0x000000050aa988>:0x0000000509d7b0>):
+    12:     <td valign="top">
+    13:       <b><font size="4">Price:&nbsp;<%=h number_to_currency properties.LIST_PRICE, :precision => 0 %></font></b><br />
+    14:       <%= properties.AREA %><br />
+    15:       <b>Bedrooms:&nbsp;<%= property(properties.ROOMS) %> Bathrooms:</b><br />
+    16:       <b>Type:</b>&nbsp;<%= properties.BOOK_SEC %><br />
+    17:       <b>Details:</b><br />
+    18:       <div style="width:350px;"><%= truncate(properties.REMARK1, :length => 173, :omission => '...') %></div><br />
+  app/views/properties/listings.html.erb:15:in `block in _app_views_properties_listings_html_erb__3276241099654678457_42254580_3409019517215144562'
+  app/views/properties/listings.html.erb:2:in `_app_views_properties_listings_html_erb__3276241099654678457_42254580_3409019517215144562'
+  app/controllers/properties_controller.rb:16:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.8ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:27:26 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.0ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (256.7ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+Rendered properties/listings.html.erb within layouts/1 (848.4ms)
+Completed   in 1202ms
+
+ActionView::Template::Error (undefined method `getRooms' for #<#<Class:0x00000003bae138>:0x00000003b9f958>):
+    12:     <td valign="top">
+    13:       <b><font size="4">Price:&nbsp;<%=h number_to_currency properties.LIST_PRICE, :precision => 0 %></font></b><br />
+    14:       <%= properties.AREA %><br />
+    15:       <b>Bedrooms:&nbsp;<%= getRooms(properties.ROOMS) %> Bathrooms:</b><br />
+    16:       <b>Type:</b>&nbsp;<%= properties.BOOK_SEC %><br />
+    17:       <b>Details:</b><br />
+    18:       <div style="width:350px;"><%= truncate(properties.REMARK1, :length => 173, :omission => '...') %></div><br />
+  app/views/properties/listings.html.erb:15:in `block in _app_views_properties_listings_html_erb___2943742440073560939_31254800__1335811850106136246'
+  app/views/properties/listings.html.erb:2:in `_app_views_properties_listings_html_erb___2943742440073560939_31254800__1335811850106136246'
+  app/controllers/properties_controller.rb:25:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.5ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:31:17 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (69.5ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (245.7ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+Rendered properties/listings.html.erb within layouts/1 (850.5ms)
+Completed   in 1195ms
+
+ActionView::Template::Error (undefined method `getRooms' for #<#<Class:0x00000004cf88d0>:0x00000004ceb220>):
+    12:     <td valign="top">
+    13:       <b><font size="4">Price:&nbsp;<%=h number_to_currency properties.LIST_PRICE, :precision => 0 %></font></b><br />
+    14:       <%= properties.AREA %><br />
+    15:       <b>Bedrooms:&nbsp;<%= getRooms(properties.ROOMS) %> Bathrooms:</b><br />
+    16:       <b>Type:</b>&nbsp;<%= properties.BOOK_SEC %><br />
+    17:       <b>Details:</b><br />
+    18:       <div style="width:350px;"><%= truncate(properties.REMARK1, :length => 173, :omission => '...') %></div><br />
+  app/views/properties/listings.html.erb:15:in `block in _app_views_properties_listings_html_erb___763753340657033115_40288900__2120924395917537128'
+  app/views/properties/listings.html.erb:2:in `_app_views_properties_listings_html_erb___763753340657033115_40288900__2120924395917537128'
+  app/controllers/properties_controller.rb:7:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.2ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:32:30 -0600
+
+TypeError (wrong argument type String (expected Module)):
+  app/controllers/properties_controller.rb:2:in `include'
+  app/controllers/properties_controller.rb:2:in `<class:PropertiesController>'
+  app/controllers/properties_controller.rb:1:in `<top (required)>'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:36:41 -0600
+
+TypeError (wrong argument type String (expected Module)):
+  app/controllers/properties_controller.rb:2:in `include'
+  app/controllers/properties_controller.rb:2:in `<class:PropertiesController>'
+  app/controllers/properties_controller.rb:1:in `<top (required)>'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:37:12 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.8ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (69.9ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (246.0ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+Rendered properties/listings.html.erb within layouts/1 (844.7ms)
+Completed   in 1190ms
+
+ActionView::Template::Error (undefined method `getRooms' for #<#<Class:0x0000000470d268>:0x000000046faaa0>):
+    12:     <td valign="top">
+    13:       <b><font size="4">Price:&nbsp;<%=h number_to_currency properties.LIST_PRICE, :precision => 0 %></font></b><br />
+    14:       <%= properties.AREA %><br />
+    15:       <b>Bedrooms:&nbsp;<%= getRooms(properties.ROOMS) %> Bathrooms:</b><br />
+    16:       <b>Type:</b>&nbsp;<%= properties.BOOK_SEC %><br />
+    17:       <b>Details:</b><br />
+    18:       <div style="width:350px;"><%= truncate(properties.REMARK1, :length => 173, :omission => '...') %></div><br />
+  app/views/properties/listings.html.erb:15:in `block in _app_views_properties_listings_html_erb__2458935725217880446_37185840_2336798015438148703'
+  app/views/properties/listings.html.erb:2:in `_app_views_properties_listings_html_erb__2458935725217880446_37185840_2336798015438148703'
+  app/controllers/properties_controller.rb:7:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.8ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:47:01 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.5ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (248.6ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+Rendered properties/listings.html.erb within layouts/1 (143908.7ms)
+Completed   in 144251ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split):
+    12:     <td valign="top">
+    13:       <b><font size="4">Price:&nbsp;<%=h number_to_currency properties.LIST_PRICE, :precision => 0 %></font></b><br />
+    14:       <%= properties.AREA %><br />
+    15:       <b>Bedrooms:&nbsp;<%= getRooms(properties.ROOMS) %> Bathrooms:</b><br />
+    16:       <b>Type:</b>&nbsp;<%= properties.BOOK_SEC %><br />
+    17:       <b>Details:</b><br />
+    18:       <div style="width:350px;"><%= truncate(properties.REMARK1, :length => 173, :omission => '...') %></div><br />
+  app/helpers/properties_helper.rb:4:in `getRooms'
+  app/views/properties/listings.html.erb:15:in `block in _app_views_properties_listings_html_erb__220368351886572478_40961140_835240162120520184'
+  app/views/properties/listings.html.erb:2:in `_app_views_properties_listings_html_erb__220368351886572478_40961140_835240162120520184'
+  app/controllers/properties_controller.rb:7:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (87.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (95.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:56:28 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (69.5ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (244.9ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+Rendered properties/listings.html.erb within layouts/1 (658.5ms)
+Completed   in 992ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split):
+    12:     <td valign="top">
+    13:       <b><font size="4">Price:&nbsp;<%=h number_to_currency properties.LIST_PRICE, :precision => 0 %></font></b><br />
+    14:       <%= properties.AREA %><br />
+    15:       <b>Bedrooms:&nbsp;<%= getRooms(properties.ROOMS) %> Bathrooms:</b><br />
+    16:       <b>Type:</b>&nbsp;<%= properties.BOOK_SEC %><br />
+    17:       <b>Details:</b><br />
+    18:       <div style="width:350px;"><%= truncate(properties.REMARK1, :length => 173, :omission => '...') %></div><br />
+  app/helpers/properties_helper.rb:7:in `getRooms'
+  app/views/properties/listings.html.erb:15:in `block in _app_views_properties_listings_html_erb__1637822957237201562_26465680__434899596202125205'
+  app/views/properties/listings.html.erb:2:in `_app_views_properties_listings_html_erb__1637822957237201562_26465680__434899596202125205'
+  app/controllers/properties_controller.rb:7:in `listings'
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.3ms)
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 16:58:23 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (72.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.3ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (251.6ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 17:01:28 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (69.9ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.2ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (246.3ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 17:02:00 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.0ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (246.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[35mSQL (69.8ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (937.5ms)
+Completed 200 OK in 1274ms (Views: 623.3ms | ActiveRecord: 456.1ms)
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2011-06-10 17:02:15 -0600
+  Processing by PropertiesController#listings as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mAgentSettings Load (71.2ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1[0m
+  [1m[35mProperty Load (213.4ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 5
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[36mSQL (69.6ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'[0m
+Rendered properties/listings.html.erb within layouts/1 (887.1ms)
+Completed 200 OK in 1124ms (Views: 605.9ms | ActiveRecord: 354.2ms)
+
+
+Started GET "/?page=3" for 127.0.0.1 at 2011-06-10 17:02:41 -0600
+  Processing by PropertiesController#listings as HTML
+  Parameters: {"page"=>"3"}
+  [1m[35mAgentSettings Load (70.0ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (214.2ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 10[0m
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[35mSQL (69.3ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (837.8ms)
+Completed 200 OK in 1113ms (Views: 556.3ms | ActiveRecord: 353.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 17:02:56 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mAgentSettings Load (69.6ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (233.1ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 0
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[36mSQL (70.2ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (844.3ms)
+Completed 200 OK in 1094ms (Views: 561.7ms | ActiveRecord: 372.9ms)
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2011-06-10 17:03:09 -0600
+  Processing by PropertiesController#listings as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mAgentSettings Load (70.1ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1
+  [1m[36mProperty Load (214.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 5[0m
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[35mSQL (72.8ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'
+Rendered properties/listings.html.erb within layouts/2 (835.8ms)
+Completed 200 OK in 1109ms (Views: 550.5ms | ActiveRecord: 357.2ms)
+
+
+Started GET "/?page=3" for 127.0.0.1 at 2011-06-10 17:03:16 -0600
+  Processing by PropertiesController#listings as HTML
+  Parameters: {"page"=>"3"}
+  [1m[36mAgentSettings Load (69.8ms)[0m  [1mSELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'donavanlinuxpc' LIMIT 1[0m
+  [1m[35mProperty Load (213.4ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000' LIMIT 5 OFFSET 10
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[36mSQL (70.0ms)[0m  [1mSELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20060909002923486441000000'[0m
+Rendered properties/listings.html.erb within layouts/2 (834.0ms)
+Completed 200 OK in 1073ms (Views: 555.5ms | ActiveRecord: 353.1ms)
+
+
+Started GET "/images/11/129000/11-129000_1.jpg" for 127.0.0.1 at 2011-06-10 17:03:17 -0600
+
+ActionController::RoutingError (No route matches "/images/11/129000/11-129000_1.jpg"):
+  
+
+Rendered /home/donavan/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 17:04:54 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.5ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (246.3ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[35mSQL (70.4ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (928.8ms)
+Completed 200 OK in 1268ms (Views: 614.1ms | ActiveRecord: 457.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 17:05:20 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (70.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (70.6ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (247.4ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[35mSQL (70.6ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (919.2ms)
+Completed 200 OK in 1268ms (Views: 603.0ms | ActiveRecord: 459.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 17:05:41 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (72.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (69.5ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (250.0ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[35mSQL (69.2ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (907.9ms)
+Completed 200 OK in 1246ms (Views: 590.7ms | ActiveRecord: 460.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-19 16:34:36 -0600
+  Processing by PropertiesController#listings as HTML
+  [1m[36mSQL (72.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAgentSettings Load (73.0ms)[0m  SELECT DomainName, AgentID, Template FROM `agent_settings` WHERE `agent_settings`.`DomainName` = 'localhost' LIMIT 1
+  [1m[36mProperty Load (228.3ms)[0m  [1mSELECT `properties`.* FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000' LIMIT 5 OFFSET 0[0m
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+  [1m[35mSQL (72.4ms)[0m  SELECT COUNT(*) FROM `properties` WHERE `properties`.`ME_TECH_ID` = '20080617144733391735000000'
+Rendered properties/listings.html.erb within layouts/1 (977.4ms)
+Completed 200 OK in 1448ms (Views: 717.7ms | ActiveRecord: 445.7ms)
